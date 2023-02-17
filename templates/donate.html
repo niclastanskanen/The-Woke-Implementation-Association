@@ -2,5 +2,15 @@
 {% block content %}
 
 <h1>Donate</h1>
+<div class="row justify-content-center pb-5">
+    <div class="col-md-6 text-center">
+        <div id="paypal-button"></div>
+    </div>
+</div>
+
+
+    <!-- Paypal Sandbox -->
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="{{url_for('static', filename='js/paypal.js')}}"></script>
 
 {% endblock %}

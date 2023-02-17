@@ -25,6 +25,10 @@ def donate():
     return render_template("donate.html")
 
 
+@app.route("/confirmation")
+def confirmation():
+    return render_template("donate-confirmation.html")
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
