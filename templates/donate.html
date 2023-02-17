@@ -1,14 +1,25 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>Donate</h1>
+
+<div class="container">
+    <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+            <h2>Donate a leaf</h2>
+            <input type="text" class="field" placeholder="Your Name">
+            <input type="text" class="field" placeholder="Your Email">
+            <input type="text" class="field" placeholder="Phone">
+            <textarea placeholder="Message" class="field"></textarea>
+            <button class="btn">Send</button>
+        </div>
+    </div>
+</div>
 <div class="row justify-content-center pb-5">
     <div class="col-md-6 text-center">
         <div id="paypal-button"></div>
     </div>
 </div>
-
-
     <!-- Paypal Sandbox -->
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 <script src="{{url_for('static', filename='js/paypal.js')}}"></script>
