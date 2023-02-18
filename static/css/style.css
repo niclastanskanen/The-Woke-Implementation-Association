@@ -274,3 +274,62 @@ textarea{
         opacity: 0;
     }
 }
+
+/* Styling for About Page */
+
+#what-we-do, #the-team {
+	box-sizing: border-box;
+	padding: 0 0.5%;
+}
+
+#what-we-do h1, #the-team h1, #educational-links h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#what-we-do p {
+	max-width: 1242px;
+	margin: auto;
+}
+
+#the-team div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 1242px;
+	align-items: center;
+	margin: auto;
+}
+
+#the-team div div {
+	flex-direction: column;
+	flex: 33.3%;
+	max-width: 33.3%;
+	min-height: 200px;
+}
+
+#the-team div div p {
+	padding: 0 2%;
+}
+
+@media screen and (max-width : 976px) {
+	#the-team div {
+		max-width: 828px;
+	}
+	
+	#the-team div div {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width : 657px) {
+	#the-team div {
+		max-width: 414px;
+	}
+
+	#the-team div div {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
