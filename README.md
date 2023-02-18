@@ -1,25 +1,36 @@
 
+The leafblowers is a NGO organization that works to prevent the results of deforestation and as a result improves the climate. It does this through reforestation projects all over the world. This side offers insight in the program and ways to support. 
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
-
-
-
-## User Experience (UX)
-
--   ### User stories
-
-    -   #### First Time Visitor Goals
-
-
-    -   #### Returning Visitor Goals
-
-
-    -   #### Frequent User Goals
+User stories
+#### First Time Visitor Goals<br>
+As a first-time visitor, I want to learn about the mission and purpose of The Leafblowers organization.
+As a first-time visitor, I want to understand the impact of deforestation and the importance of reforestation projects.
+As a first-time visitor, I want to know how I can support The Leafblowers' efforts in preventing deforestation and promoting reforestation.<br<br>
+#### Returning Visitor Goals <br>
+As a returning visitor, I want to learn about the progress and updates on ongoing reforestation projects.
+As a returning visitor, I want to know about any new initiatives or events organized by The Leafblowers.
+As a returning visitor, I want to donate or volunteer to support The Leafblowers' efforts.<br<br>
+#### Frequent User Goals
+As a frequent user, I want to stay up-to-date on the latest news and updates on The Leafblowers' reforestation projects.
+As a frequent user, I want to track my donations or volunteer hours and see the impact of my contribution.
+As a frequent user, I want to connect with other members and volunteers of The Leafblowers and exchange ideas and information.
 
 
 -   ### Design
     -   #### Colour Scheme
+Meadow Green
+RGB: (69, 104, 55)
+HEX: #456837
+<br><br>
+Pecan
 
+Hex Code: #A36E51
+RGB Values:	(163, 110, 81)
+<br><br>
+Ganache
+Hex:#5a2d1d
+RGB: 90,45,29
+<br><br>
     -   #### Typography
 
     -   #### Imagery
@@ -36,7 +47,7 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 -   Responsive on all device sizes
 
--   Interactive elements
+Interactive elements
 Landing page, showing aim of organisation.
 Info page, showing the different projects on an interactive map
 donation page
