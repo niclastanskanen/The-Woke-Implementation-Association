@@ -1,4 +1,35 @@
+body {
+	background-color: #f7f7f7;
+	font-family: Arial, sans-serif;
+}
 
+.reforestation-project {
+	margin: 20px auto;
+	padding: 20px;
+	width: 20%;
+	max-width: 800px;
+
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.reforestation-project h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.reforestation-project p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+
+/* Donate form */
 .container{
 	position: relative;
 	width: 100%;
