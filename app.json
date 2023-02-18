@@ -1,0 +1,11 @@
+{
+  "name": "my-python-app",
+  "repository": "https://github.com/hypergeek-dev/The-Woke-Implementation-Association",
+  "keywords": ["python", "heroku"],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "pytest"
+      }
+    }
+  }}
