@@ -3,6 +3,74 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+
+/*background image */
+#background-outer {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+}
+/* text box for background-image */
+
+#cover-text,
+#cover-text h2 {
+    color: rgb(249, 249, 249);
+}
+#background {
+    height: 500px;
+    width: 100%;
+    background: url(/assets/images/img1_index.jpg) no-repeat center;
+    background-size: cover;
+    /* effects for the background */
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+@media screen and (max-width: 770px) 
+{
+    #cover-text {
+        bottom: 20px;
+        right: 0;
+        position: sticky;
+	}
+}
+@media (min-width:1000px) and (max-width: 3000px) {
+	#cover-text {
+        bottom: 20px;
+        right: 0;
+        position: sticky;
+    }
+}
+@media screen and (max-width: 950px) {
+	#cover-text {
+		position: sticky;
+	 }
+}
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Barlow, sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    bottom: 50px;
+    right: 150px;
+    position: sticky;
+}
+
 .reforestation-project {
 	margin: 20px auto;
 	padding: 20px;
