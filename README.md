@@ -18,19 +18,8 @@ As a frequent user, I want to connect with other members and volunteers of The L
 
 -   ### Design
     -   #### Colour Scheme
-Meadow Green
-RGB: (69, 104, 55)
-HEX: #456837
-<br><br>
-Pecan
+![Color Scheme](static/assets/images/colorscheme.png)
 
-Hex Code: #A36E51
-RGB Values:	(163, 110, 81)
-<br><br>
-Ganache
-Hex:#5a2d1d
-RGB: 90,45,29
-<br><br>
     -   #### Typography
 
     -   #### Imagery
