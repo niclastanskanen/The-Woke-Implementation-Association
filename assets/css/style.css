@@ -390,8 +390,8 @@ textarea{
 #the-team div div div img, #educational-links div div div img {
 	object-fit: cover;
 	height: 100%;
-	width: 100%;
-    border-radius: 100%;
+	width: 200px;
+    border-radius: 200px;
 }
 
 #the-team div div p, #educational-links div div p {
