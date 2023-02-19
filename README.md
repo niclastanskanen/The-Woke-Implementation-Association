@@ -18,7 +18,7 @@ As a frequent user, I want to connect with other members and volunteers of The L
 
 -   ### Design
     -   #### Colour Scheme
-![Color Scheme](static/assets/images/colorscheme.png)
+![Color Scheme](assets/images/colorscheme.png)
 
     -   #### Typography
 

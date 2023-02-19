@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{{ url_for('static', filename=' ') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="/assets/css/style.css">
     <title>The leafblowers</title>
 </head>
 
 <body>
+    <header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -25,16 +25,16 @@
             <a class="navbar-brand" href="#">The LeafBlowers</a>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('map') }}">Map</a>
+                    <a class="nav-link" href="map.html">Map</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('donate') }}">Donate</a>
+                    <a class="nav-link" href="donate.html">Donate</a>
                 </li>
         </div>
         <div id="leaves">
@@ -55,9 +55,10 @@
             <i></i> 
           </div>
     </nav>
+</header>
 
-    {% block content %}
-    {% endblock %}
+<iframe src="https://www.google.com/maps/d/embed?mid=1ezgbV89e4ZvRIeWG3sdfUCegXLEMeMk&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+
 
     <!-- footer -->
     <footer>Hey footer</footer>
@@ -74,7 +75,7 @@
         crossorigin="anonymous"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{ url_for('static', filename='js/script.js ') }}"></script>
+    <script src="/assets/js/script.js"></script>
 
     <script>
         $("#copyright").text(new Date().getFullYear());
