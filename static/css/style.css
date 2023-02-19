@@ -1,5 +1,9 @@
 body {
-	background-color: #f7f7f7;
+    background: rgb(171,218,158);
+    background: -moz-linear-gradient(90deg, rgba(171,218,158,1) 32%, rgba(48,153,0,1) 79%);
+    background: -webkit-linear-gradient(90deg, rgba(171,218,158,1) 32%, rgba(48,153,0,1) 79%);
+    background: linear-gradient(90deg, rgba(171,218,158,1) 32%, rgba(48,153,0,1) 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#abda9e",endColorstr="#309900",GradientType=1);
 	font-family: Arial, sans-serif;
 }
 
