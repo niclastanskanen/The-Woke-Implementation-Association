@@ -131,7 +131,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .left{
-	background: url("/assets/images/tiger-form.jpg") no-repeat center; /* image need to be added */
+	background: url("/assets/images/notatiger.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -391,6 +391,7 @@ textarea{
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
+    border-radius: 100%;
 }
 
 #the-team div div p, #educational-links div div p {
