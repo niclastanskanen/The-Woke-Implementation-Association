@@ -9,8 +9,9 @@ paypal.Button.render({
     locale: 'en_US',
     style: {
         size: 'large',
-        color: 'blue',
+        color: 'black',
         shape: 'rect',
+        label: 'pay'
     },
 
     // Enable Pay Now checkout flow (optional)
@@ -21,7 +22,7 @@ paypal.Button.render({
         return actions.payment.create({
             transactions: [{
                 amount: {
-                    total: '100',
+                    total: '10',
                     currency: 'EUR'
                 }
             }]
@@ -31,7 +32,7 @@ paypal.Button.render({
     onAuthorize: function (data, actions) {
         return actions.payment.execute().then(function () {
             // Show a confirmation message to the buyer
-            window.location.href = '/confirmation';
+            window.location.href = '/donate-confirmation.html';
         });
     }
 }, '#paypal-button');
