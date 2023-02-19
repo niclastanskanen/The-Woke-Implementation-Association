@@ -63,7 +63,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .left{
-	background: url("") no-repeat center; /* image need to be added */
+	background: url("/assets/images/tiger-form.jpg") no-repeat center; /* image need to be added */
 	background-size: cover;
 	height: 100%;
 }
@@ -332,4 +332,25 @@ textarea{
 		flex: 100%;
 		max-width: 100%;
 	}
+}
+
+/*footer */
+footer {
+    text-align: center;
+}
+#linha-vertical {
+    height: 200px;
+    border-right: 1px solid red;
+}
+.social-networks {
+    text-align: center;
+}
+.social-networks>li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #456837;
 }
